@@ -1,0 +1,36 @@
+:root{
+    --color-second:rgb(255, 239, 95);
+}
+ .e{ /*se le aplicara al select */
+    gap: 0;
+}
+
+/* a b c, a los hijos   */
+.a{
+    border-radius: 2em 0em 0em 2em;
+    border-right: none;
+}
+.b{
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+.c{
+    border-radius: 0em 2em 2em 0em;
+    border-left: none;
+}
+
+.a, .b, .c{
+    border-color:var(--color-second);
+ 
+}
+.a input, .b input, .c input{
+    width: 70%;
+    /* color:var(--color-second); */
+ 
+}
+.a .type, .b .type, .c .type{
+    font-size: 2em;
+    color:var(--color-second);
+}
+
