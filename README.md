@@ -1,5 +1,6 @@
 # TEMPORIZADOR ONLINE
 
+Eliseo Francisco Arévalo Espinoza
 [Visitar la página](https://eliseodesign.github.io/temporizador/)
 
 ## Descripción
