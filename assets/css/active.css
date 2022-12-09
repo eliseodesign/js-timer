@@ -34,3 +34,16 @@
     color:var(--color-second);
 }
 
+
+
+.credits{
+    text-align: center;
+    opacity: .3;
+    color: var(--color-second);
+}
+.credits a{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: var(--color-second)
+}
